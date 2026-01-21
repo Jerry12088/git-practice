@@ -1,0 +1,138 @@
+/* style.css - for Corona Pandemic Story HTML */
+
+/* ===== Reset & Base ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: #0a0a15;
+    color: #e0e0ff;
+    line-height: 1.7;
+    min-height: 100vh;
+    padding: 20px 15px;
+}
+
+/* ===== Container & Typography ===== */
+.container {
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3.2rem;
+    color: #ff3366;
+    text-align: center;
+    margin: 60px 0 40px;
+    text-shadow: 0 0 25px rgba(255, 51, 102, 0.35);
+    letter-spacing: -1px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #66d9ff;
+    margin: 50px 0 20px;
+    text-align: center;
+}
+
+.date {
+    display: block;
+    color: #88ddff;
+    font-weight: 600;
+    font-size: 1.15rem;
+    margin-bottom: 12px;
+    opacity: 0.9;
+}
+
+p {
+    margin-bottom: 1.4em;
+    font-size: 1.1rem;
+}
+
+.highlight {
+    color: #ffeb3b;
+    font-weight: 600;
+    padding: 2px 6px;
+    border-radius: 4px;
+    background: rgba(255, 235, 59, 0.12);
+}
+
+/* ===== Blockquote ===== */
+blockquote {
+    border-left: 5px solid #ff3366;
+    padding: 0 0 0 24px;
+    margin: 35px 0;
+    font-style: italic;
+    color: #bbbbff;
+    font-size: 1.15rem;
+}
+
+/* ===== Lists ===== */
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 20px 0;
+}
+
+ul li {
+    margin: 12px 0;
+    padding-left: 28px;
+    position: relative;
+}
+
+ul li::before {
+    content: "•";
+    color: #ff3366;
+    position: absolute;
+    left: 0;
+    font-size: 1.4rem;
+    line-height: 1;
+}
+
+/* ===== Ending section ===== */
+.ending {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 100px 0 140px;
+    color: #a5d6a7;
+    font-weight: 500;
+    padding: 0 20px;
+}
+
+.ending br {
+    margin-bottom: 1em;
+}
+
+/* ===== Footer note ===== */
+.small {
+    text-align: center;
+    color: #8888aa;
+    font-size: 0.95rem;
+    margin: 120px 0 60px;
+    opacity: 0.8;
+}
+
+/* ===== Mobile responsiveness ===== */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2.6rem;
+        margin: 40px 0 30px;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+
+    blockquote {
+        padding-left: 18px;
+        margin: 25px 0;
+    }
+
+    .ending {
+        font-size: 1.3rem;
+        margin: 80px 0 100px;
+    }
+}
