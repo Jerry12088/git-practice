@@ -1,0 +1,5 @@
+Name: Jared Ojwang
+Age: 23
+Interests: Technology, Git, Laptops, Networking
+Skills: Git version control, hardware troubleshooting, programming basics
+
