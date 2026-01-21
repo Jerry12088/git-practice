@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # The 2020 Corona Pandemic – A Human Story
 
 > “We didn’t just survive a virus. We survived each other.”  
@@ -74,3 +75,7 @@ Feel free to fork, add your country’s story, your personal memory, or just lea
 
 Last updated: January 2026
 
+=======
+# git-practice
+🎯 Project Goal  Learn how to:  Use Git correctly in daily development  Work with branches, remotes, and history  Avoid and fix common Git mistakes  Follow clean Git workflows
+>>>>>>> cd9ddf40c5ad63b18848f76c729b1e1101e510c1
